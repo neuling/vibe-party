@@ -1,0 +1,18 @@
+const DEFAULT_RELAY_URL = 'wss://party.moritz.pro';
+const VERSION = '0.1.0';
+
+const HEARTBEAT_INTERVAL = 10000; // 10s
+const HEARTBEAT_TIMEOUT = 30000;  // 30s
+const MAX_CLIENTS_PER_ROOM = 2;
+const RATE_LIMIT_MAX = 5;
+const RATE_LIMIT_WINDOW = 60000; // 1 minute
+
+module.exports = {
+  DEFAULT_RELAY_URL,
+  VERSION,
+  HEARTBEAT_INTERVAL,
+  HEARTBEAT_TIMEOUT,
+  MAX_CLIENTS_PER_ROOM,
+  RATE_LIMIT_MAX,
+  RATE_LIMIT_WINDOW,
+};

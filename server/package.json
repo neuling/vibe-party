@@ -1,0 +1,13 @@
+{
+  "name": "vibe-party-relay",
+  "version": "0.1.0",
+  "description": "WebSocket relay for vibe-party",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "license": "MIT"
+}

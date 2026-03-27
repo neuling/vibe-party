@@ -1,0 +1,32 @@
+{
+  "name": "vibe-party",
+  "version": "0.1.0",
+  "description": "Multiplayer AI coding sessions over the internet",
+  "bin": {
+    "vibe-party": "./bin/vibe-party.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "start:relay": "node server/index.js"
+  },
+  "keywords": ["pair-programming", "terminal", "multiplayer", "cli", "ai-coding"],
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "node-pty": "^1.2.0-beta.12",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "license": "MIT"
+}
